@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500DC2C121578B9200971D2D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2C021578B9200971D2D /* UserData.swift */; };
+		500DC2C321578CAE00971D2D /* MyQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2C221578CAE00971D2D /* MyQrViewController.swift */; };
 		5037EC0221543B0B003CB8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037EC0121543B0B003CB8DD /* AppDelegate.swift */; };
 		5037EC0421543B0B003CB8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037EC0321543B0B003CB8DD /* ViewController.swift */; };
 		5037EC0721543B0B003CB8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037EC0521543B0B003CB8DD /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500DC2C021578B9200971D2D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		500DC2C221578CAE00971D2D /* MyQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQrViewController.swift; sourceTree = "<group>"; };
 		5037EBFE21543B0B003CB8DD /* CS Bonus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CS Bonus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037EC0121543B0B003CB8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5037EC0321543B0B003CB8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 				5037EC0121543B0B003CB8DD /* AppDelegate.swift */,
 				5037EC0321543B0B003CB8DD /* ViewController.swift */,
 				5037EC0521543B0B003CB8DD /* Main.storyboard */,
+				500DC2C221578CAE00971D2D /* MyQrViewController.swift */,
 				5037EC1321543C21003CB8DD /* MenuTableViewController.swift */,
 				5037EC0A21543B0C003CB8DD /* LaunchScreen.storyboard */,
 				5037EC0D21543B0C003CB8DD /* Info.plist */,
 				5037EC16215449FE003CB8DD /* Images.xcassets */,
+				500DC2C021578B9200971D2D /* UserData.swift */,
 			);
 			path = "CS Bonus";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				5037EC0421543B0B003CB8DD /* ViewController.swift in Sources */,
 				5037EC0221543B0B003CB8DD /* AppDelegate.swift in Sources */,
+				500DC2C121578B9200971D2D /* UserData.swift in Sources */,
 				5037EC1421543C21003CB8DD /* MenuTableViewController.swift in Sources */,
+				500DC2C321578CAE00971D2D /* MyQrViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
