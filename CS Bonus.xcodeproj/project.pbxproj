@@ -9,17 +9,29 @@
 /* Begin PBXBuildFile section */
 		500DC2C121578B9200971D2D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2C021578B9200971D2D /* UserData.swift */; };
 		500DC2C321578CAE00971D2D /* MyQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2C221578CAE00971D2D /* MyQrViewController.swift */; };
+		500DC2C82157C5C800971D2D /* PointsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2C72157C5C800971D2D /* PointsModel.swift */; };
+		500DC2CA2157C70A00971D2D /* Points.json in Resources */ = {isa = PBXBuildFile; fileRef = 500DC2C92157C70A00971D2D /* Points.json */; };
+		500DC2CC2157C8C200971D2D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500DC2CB2157C8C200971D2D /* MapViewController.swift */; };
 		5037EC0221543B0B003CB8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037EC0121543B0B003CB8DD /* AppDelegate.swift */; };
 		5037EC0421543B0B003CB8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037EC0321543B0B003CB8DD /* ViewController.swift */; };
 		5037EC0721543B0B003CB8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037EC0521543B0B003CB8DD /* Main.storyboard */; };
 		5037EC0C21543B0C003CB8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5037EC0A21543B0C003CB8DD /* LaunchScreen.storyboard */; };
 		5037EC1421543C21003CB8DD /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037EC1321543C21003CB8DD /* MenuTableViewController.swift */; };
 		5037EC17215449FE003CB8DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5037EC16215449FE003CB8DD /* Images.xcassets */; };
+		50CCE5ED215AC38D00779176 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE5EC215AC38D00779176 /* SettingsViewController.swift */; };
+		50CCE5EF215AD05900779176 /* History.json in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE5EE215AD05900779176 /* History.json */; };
+		50CCE5F1215AD23A00779176 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE5F0215AD23A00779176 /* HistoryViewController.swift */; };
+		50CCE5F3215AD2A000779176 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE5F2215AD2A000779176 /* HistoryModel.swift */; };
+		50CCE5F72160216300779176 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE5F62160216300779176 /* HistoryCell.swift */; };
+		50CCE5F92160AD0F00779176 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE5F82160AD0F00779176 /* SendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		500DC2C021578B9200971D2D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		500DC2C221578CAE00971D2D /* MyQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQrViewController.swift; sourceTree = "<group>"; };
+		500DC2C72157C5C800971D2D /* PointsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsModel.swift; sourceTree = "<group>"; };
+		500DC2C92157C70A00971D2D /* Points.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Points.json; sourceTree = "<group>"; };
+		500DC2CB2157C8C200971D2D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5037EBFE21543B0B003CB8DD /* CS Bonus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CS Bonus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5037EC0121543B0B003CB8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5037EC0321543B0B003CB8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +40,12 @@
 		5037EC0D21543B0C003CB8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5037EC1321543C21003CB8DD /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		5037EC16215449FE003CB8DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50CCE5EC215AC38D00779176 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		50CCE5EE215AD05900779176 /* History.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = History.json; sourceTree = "<group>"; };
+		50CCE5F0215AD23A00779176 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		50CCE5F2215AD2A000779176 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		50CCE5F62160216300779176 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		50CCE5F82160AD0F00779176 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +78,19 @@
 		5037EC0021543B0B003CB8DD /* CS Bonus */ = {
 			isa = PBXGroup;
 			children = (
+				50CCE5F62160216300779176 /* HistoryCell.swift */,
+				500DC2C72157C5C800971D2D /* PointsModel.swift */,
+				50CCE5F2215AD2A000779176 /* HistoryModel.swift */,
+				500DC2C92157C70A00971D2D /* Points.json */,
+				50CCE5EE215AD05900779176 /* History.json */,
 				5037EC0121543B0B003CB8DD /* AppDelegate.swift */,
 				5037EC0321543B0B003CB8DD /* ViewController.swift */,
 				5037EC0521543B0B003CB8DD /* Main.storyboard */,
+				50CCE5F82160AD0F00779176 /* SendViewController.swift */,
+				50CCE5F0215AD23A00779176 /* HistoryViewController.swift */,
+				50CCE5EC215AC38D00779176 /* SettingsViewController.swift */,
 				500DC2C221578CAE00971D2D /* MyQrViewController.swift */,
+				500DC2CB2157C8C200971D2D /* MapViewController.swift */,
 				5037EC1321543C21003CB8DD /* MenuTableViewController.swift */,
 				5037EC0A21543B0C003CB8DD /* LaunchScreen.storyboard */,
 				5037EC0D21543B0C003CB8DD /* Info.plist */,
@@ -131,7 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500DC2CA2157C70A00971D2D /* Points.json in Resources */,
 				5037EC17215449FE003CB8DD /* Images.xcassets in Resources */,
+				50CCE5EF215AD05900779176 /* History.json in Resources */,
 				5037EC0C21543B0C003CB8DD /* LaunchScreen.storyboard in Resources */,
 				5037EC0721543B0B003CB8DD /* Main.storyboard in Resources */,
 			);
@@ -144,11 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500DC2C82157C5C800971D2D /* PointsModel.swift in Sources */,
 				5037EC0421543B0B003CB8DD /* ViewController.swift in Sources */,
 				5037EC0221543B0B003CB8DD /* AppDelegate.swift in Sources */,
 				500DC2C121578B9200971D2D /* UserData.swift in Sources */,
 				5037EC1421543C21003CB8DD /* MenuTableViewController.swift in Sources */,
 				500DC2C321578CAE00971D2D /* MyQrViewController.swift in Sources */,
+				50CCE5F3215AD2A000779176 /* HistoryModel.swift in Sources */,
+				50CCE5F1215AD23A00779176 /* HistoryViewController.swift in Sources */,
+				50CCE5F92160AD0F00779176 /* SendViewController.swift in Sources */,
+				500DC2CC2157C8C200971D2D /* MapViewController.swift in Sources */,
+				50CCE5ED215AC38D00779176 /* SettingsViewController.swift in Sources */,
+				50CCE5F72160216300779176 /* HistoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

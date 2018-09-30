@@ -14,9 +14,8 @@ class MyQrViewController: UIViewController {
         super.viewDidLoad()
         
 //     Выводим на экран сгенерирванный QR
-        let MyQR = generateQRCode(from: openKey)
+        let MyQR = generateQRCode(from: userOpenKey)
         myQrImageOutlet.image = MyQR
-        print(openKey)
     }
     
     

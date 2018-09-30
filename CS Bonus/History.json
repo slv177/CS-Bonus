@@ -1,0 +1,7 @@
+{
+    "data":[
+        {"direction": "send", "remoteAdress": "0x47320e6Ad32795634e547ecDC6dAC3e11eA567c7", "time": "2018-05-10T15:52:00Z", "amount": "1"},
+        {"direction": "get", "remoteAdress": "0x47320e6Ad32795634e547ecDC6dAC3e11eA567c7", "time": "2018-06-10T15:52:00Z", "amount": "2"},
+    ]
+}
+
