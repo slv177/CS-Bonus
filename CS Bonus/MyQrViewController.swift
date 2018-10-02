@@ -16,6 +16,9 @@ class MyQrViewController: UIViewController {
 //     Выводим на экран сгенерирванный QR
         let MyQR = generateQRCode(from: userOpenKey)
         myQrImageOutlet.image = MyQR
+        
+//      Выыодим текущий баланс
+        myCurrentBalanceOutlet.text = "Мой баланс " + String(currentBalance) + " CS"
     }
     
     
@@ -36,5 +39,6 @@ class MyQrViewController: UIViewController {
     }
     
     @IBOutlet weak var myQrImageOutlet: UIImageView!
+    @IBOutlet weak var myCurrentBalanceOutlet: UILabel!
     
 }

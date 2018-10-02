@@ -39,7 +39,7 @@ class HistoryViewController: UIViewController, UITableViewDataSource, UITableVie
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "HistoryCell") as? HistoryCell else {return UITableViewCell()}
-        cell.direction.text = transactionsArray[indexPath.row].direction + " " + transactionsArray[indexPath.row].amount + " Credits"
+        cell.direction.text = transactionsArray[indexPath.row].direction + " " + transactionsArray[indexPath.row].amount + " CS"
         cell.remoteAdress.text = transactionsArray[indexPath.row].remoteAdress
         cell.time.text = transactionsArray[indexPath.row].time
         return cell

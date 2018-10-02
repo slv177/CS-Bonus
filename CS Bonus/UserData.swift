@@ -14,3 +14,5 @@ var userName = "Иван"
 var userSurname = "Константинов"
 var userEmail = "ivankonst@pochta.com.uk"
 var userPhone = "+7 (985) 345-45-12"
+var currentBalance = 2000
+

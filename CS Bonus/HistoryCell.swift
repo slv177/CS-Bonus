@@ -13,7 +13,6 @@ class HistoryCell: UITableViewCell {
     @IBOutlet weak var direction: UITextView!
     @IBOutlet weak var remoteAdress: UITextView!
     @IBOutlet weak var time: UITextView!
-    @IBOutlet weak var amount: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
